@@ -11,9 +11,9 @@ Her arbejder vi med IT-sikkerhed, Python, tests og mere.
 
 Link til cheat sheet: [Markdown Guide](https://www.markdownguide.org/cheat-sheet/)
 
-**Fed tekst eksempel**  
-*Kursiv eksempel*  
-`kode eksempel`
+Unit test
+<img width="1920" height="1200" alt="Screenshot from 2026-02-03 11-48-52" src="https://github.com/user-attachments/assets/af60d3db-16c9-4589-8342-9adc70619836" />
+
 
 ## Nyttige links
 - [Zealand Køge](https://www.zealand.dk/lokationer/koege/)
