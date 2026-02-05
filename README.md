@@ -18,6 +18,7 @@ CRUD test
 <img width="1920" height="1200" alt="crud test" src="https://github.com/user-attachments/assets/35f34b7f-18f5-4dd6-b59c-b285cf468554" />
 
 Cycle-process-test
+<img width="1920" height="1200" alt="Cycle-process-test" src="https://github.com/user-attachments/assets/17ab5230-9677-4b29-aab7-58a515270893" />
 
 
 ## Nyttige links
