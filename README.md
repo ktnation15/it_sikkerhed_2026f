@@ -23,5 +23,10 @@ Cycle-process-test
 flat file opgaven:
 <img width="1920" height="1200" alt="Screenshot from 2026-02-10 10-59-11" src="https://github.com/user-attachments/assets/3f39c741-4d60-4be9-b8f6-b981853f4ba8" />
 
+Krypteringsopgave:
+<img width="1920" height="1200" alt="Screenshot from 2026-02-10 11-37-07" src="https://github.com/user-attachments/assets/7dbc958f-adc1-4cb1-b2b2-a33fed240f85" />
+
+
+
 ## Nyttige links
 - [Zealand Køge](https://www.zealand.dk/lokationer/koege/)
