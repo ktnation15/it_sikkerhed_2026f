@@ -20,6 +20,8 @@ CRUD test
 Cycle-process-test
 <img width="1920" height="1200" alt="Cycle-process-test" src="https://github.com/user-attachments/assets/17ab5230-9677-4b29-aab7-58a515270893" />
 
+flat file opgaven:
+<img width="1920" height="1200" alt="Screenshot from 2026-02-10 10-59-11" src="https://github.com/user-attachments/assets/3f39c741-4d60-4be9-b8f6-b981853f4ba8" />
 
 ## Nyttige links
 - [Zealand Køge](https://www.zealand.dk/lokationer/koege/)
