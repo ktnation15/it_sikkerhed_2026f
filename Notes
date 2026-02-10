@@ -1,1 +1,92 @@
+Overordnet formål og pædagogisk tilgang (side 1–2)
 
+Underviser: Bartholomæus Rohard Warszawski (Zedland)
+Arbejdsmetode LEG – det centrale budskab:
+Ingen lærer perfektion første gang
+Små uperfekte fremskridt + positiv feedback → motivation & læring
+„Har du det sjovt, så vender du tilbage til det. Gør du noget tilstrækkeligt, så bliver du ekspert.“
+Materialet er ikke perfekt → vi forbedrer det sammen trin for trin
+
+
+Vigtigste testteknikker gennemgået
+
+Grænseværdi test (Boundary Value Analysis)
+Tester grænserne mellem to tilstande
+Klassiske tre punkter:
+lige under grænsen
+lige på grænsen
+lige over grænsen
+
+Eksempel 1: Alder 18 år
+17 → nej
+18 → ja
+19 → ja
+Eksempel 2: Farvekonvertering Adobe RGB → sRGB (8-bit)
+org 259 → 254 → rounded 254
+org 260 → 255 → rounded 255
+org 261 → 256 → rounded 255 (klippes)
+Eksempel 3: Input-længde (max 12 bytes) med forskellige tegnsæt (ASCII, UTF-8)
+viser forskel på byte-længde vs. antal tegn
+
+CRUD(L)-test
+Create – opret ny post
+Read   – hent/vis enkelt post
+Update – ændr eksisterende post
+Delete – slet post (sikkerhed: cascade, foreign keys osv.)
+List   – hent/vis oversigt over flere poster
+→ Meget brugt til API / database-tilknyttede features
+
+Cycle Process Test (Cyklus-proces-test / endurance / soak testing light)
+Gentagne cyklusser over lang tid
+Fokus:
+Ydeevne ikke forringes (memory leak, ressource-akkumulering)
+Logning håndteres korrekt
+Genstart / afbrydelse / netværksfejl → systemet genopretter pænt
+
+Typisk relevant for: baggrundsjobs, kø-systemer, IoT-enheder, batch-processer
+
+Decision Table Testing
+Systematisk gennemtest af kombinationer af betingelser
+Struktur:
+Betingelser ↑ | Regler → | Handling
+Eksempel: Login med/uden MFA
+Gyldigt brugernavn + password + MFA aktiveret + MFA korrekt → adgang
+Gyldigt brugernavn + password + MFA aktiveret + MFA forkert → nægtet
+Ugyldigt brugernavn → nægtet + log hændelse
+
+Fordel: afslører manglende/glemte kombinationer i kompleks logik
+
+CI/CD – kort introduktion
+CI = Continuous Integration
+→ løbende merge → automatisk build + test → tidlig fejlopdagelse
+CD = Continuous Delivery / Deployment
+→ godkendte ændringer → automatisk (eller halvautomatisk) udrulning
+Bitbucket Pipelines = konkret værktøj til at implementere CI/CD i Bitbucket-repos
+
+
+Afsluttende opgave (side 19)
+Du skal vælge ét emne inden for IT-sikkerhed og anvende flere teknikker på det samme emne:
+Obligatoriske teknikker i opgaven:
+
+Grænseværdi test
+CRUD(L)
+Cycle Process Test
+Test Pyramiden (Unit → Integration → E2E)
+Decision Table Test
+
+Praktisk levering:
+
+Dokumentér alle eksempler i README.md
+Lav en data-dreven pytest (som simulerer Decision Table + én af de andre teknikker)
+Kryds af i Moodle
+„Leg“ → vær nysgerrig, eksperimenterende, ikke perfekt første gang
+
+Hurtig tjekliste til opgaven (forslag til emne inden for IT-sikkerhed)
+Mulige emner du kan overveje (vælg ét):
+
+Password reset token (gyldighed, længde, brug én gang)
+Rate limiting på login-endepunkt
+API key validering (scopes, expiration, revoke)
+2FA/MFA kode validering
+File upload validering (størrelse, filtype, virusscanning)
+Session timeout + refresh token håndtering
