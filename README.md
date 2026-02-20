@@ -25,7 +25,10 @@ flat file opgaven:
 
 Krypteringsopgave:
 <img width="1920" height="1200" alt="Screenshot from 2026-02-10 11-37-07" src="https://github.com/user-attachments/assets/7dbc958f-adc1-4cb1-b2b2-a33fed240f85" />
-
+Rest api test
+<img width="1920" height="1200" alt="API test" src="https://github.com/user-attachments/assets/575a5f9c-81d8-4ae9-b059-ad82b3cd1274" />
+Auth opgaven
+<img width="1920" height="1200" alt="auth test" src="https://github.com/user-attachments/assets/a8f3f5a2-db85-4431-bb62-625e8d43a781" />
 
 
 ## Nyttige links
